@@ -1,0 +1,32 @@
+name: simple_image_and_video_saver
+description: "A Flutter plugin to save images and videos to gallery, downloads, and private folders."
+version: 0.1.0
+homepage: https://github.com/tu_usuario/tu_repositorio  # opcional pero recomendado
+repository: https://github.com/tu_usuario/tu_repositorio  # opcional pero recomendado
+
+environment:
+  sdk: ^3.6.0
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.kevinzr.simple_image_and_video_saver
+        pluginClass: SimpleImageAndVideoSaverPlugin
+
+
