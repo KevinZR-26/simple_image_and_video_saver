@@ -23,7 +23,7 @@ Agrega este paquete a tu archivo `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  simple_image_and_video_saver: ^0.0.1
+  simple_image_and_video_saver: ^0.1.0
 ```
 
 Luego ejecuta:
